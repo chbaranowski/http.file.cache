@@ -23,3 +23,7 @@ dependencies {
     springloaded "org.springsource.springloaded:springloaded-core:1.1.4"
     compile "commons-io:commons-io:2.4"
 }
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '1.10'
+}

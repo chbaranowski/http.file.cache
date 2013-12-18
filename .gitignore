@@ -1,0 +1,21 @@
+# Eclipse
+.cache
+.classpath
+.project
+.settings
+bin
+generated-java
+
+# Mac
+.DS_Store
+
+# Gradle
+build
+.gradle
+target
+
+# Idea
+*.iml
+.idea
+*.ipr
+*.iws
