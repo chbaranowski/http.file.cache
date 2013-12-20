@@ -9,7 +9,7 @@ ratpack {
             File cache = new File("cache")
             File cachedFile = new File(cache, uri)
             if(!cachedFile.exists()) {
-                URL pearURL = new URL("http://download.pear.php.net$uri")
+                URL pearURL = new URL("http://pear.php.net$uri")
                 InputStream is = pearURL.openStream()
                 try {
                     FileUtils.copyInputStreamToFile(is, cachedFile)
